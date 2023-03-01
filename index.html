@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Item Card </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="item-container">
+        <div class="item-top">
+            <div class="top-right-cart">
+                <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+        </div>
+        <div class="main-item">
+            <img src="data:image/jpeg;base64,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" alt="">
+        </div>
+        <h2 class="item-heading">
+            Nike Court Vision
+        </h2>
+        <p class="item-description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit labore quae quaerat eaque.
+        </p>
+        <ul class="rating">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star-half-stroke"></i>
+        </ul>
+        <p class="item-price">80.00<sup>$</sup></p>
+        <button class="item-cart-btn">Add To Cart</button>
+    </div>
+</body>
